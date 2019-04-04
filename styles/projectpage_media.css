@@ -1,0 +1,132 @@
+ @media only screen and (max-width: 768px){
+    .logoBlock{
+	padding-top: 4vw;
+    }  
+
+    .logoBlock a{
+	font-size: 4vw;
+	margin-left: 7vw; 
+    }
+
+    .logoBlock h1{
+	color: #F7F5EF;
+	font-size: 8vw;
+	margin-top: 10vw;
+	height: 16vw;
+}
+
+.project{
+	grid-template-columns: 100%;
+	margin: 7vw;
+	margin-bottom: 5vw;
+	margin-top: 5vw; 
+}
+
+.imgBlock img{
+   margin: 4vw;
+   width: calc(100% - 8vw);
+   height: auto;
+}
+
+.infoBlock{
+	padding-left: 4vw;
+	padding-right: 4vw;
+}
+
+.infoBlock h2{
+	font-size: 9vw;
+	height: unset;
+	margin-top: 2vw;
+	text-align: center;
+}
+
+.infoBlock h4{
+	font-size: 4vw;
+	height: unset;
+	margin-top: 6vw;
+}
+
+.infoBlock button{
+	width: 100%;
+	height: 10vw;
+	margin-top: 6vw;
+	margin-bottom: 4vw;
+	font-size: 3.2vw;
+	border-radius: 1.4vw;
+}
+
+.footer{
+	grid-template-columns: 100%;
+}
+
+.telegram{
+	height: 8vw;
+	margin-top: 2vw;
+}
+
+.tInfo{
+	height: 8vw;
+	margin-left: 0;
+}
+
+.tInfo img{
+	width: 6vw;
+    height: 6vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.tInfo a{ 
+    font-size: 3.6vw;
+    width: 100%;
+}
+
+.gmail{
+	margin-top: 2vw;
+	height: 8vw;
+}
+
+.gInfo{
+	height: 8vw;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.gInfo img{
+	width: 6vw;
+    height: 6vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.gInfo a{
+    font-size: 3.6vw;
+    width: 100%;
+}
+
+.call{
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	height: 8vw;
+}
+
+.cInfo{
+	height: 8vw;
+	margin-left: 0;
+}
+
+.cInfo img{
+	width: 6vw;
+    height: 6vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.cInfo a{
+    font-size: 3.6vw;
+    width: 100%;
+}
+
+}
+
+}

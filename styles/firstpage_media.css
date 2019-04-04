@@ -1,0 +1,218 @@
+
+@media only screen and (max-width: 768px){
+      .blockTitle{
+      	grid-template-areas: 
+      	"logoblock"
+      	"imageblock"
+      	"tbblock"
+      	"awblock";
+      	grid-template-columns: 100% 100% 100% 100%;
+      }
+
+    .logoBlock{
+	grid-area: logoblock;
+	padding-top: 4vw;
+	padding-left: 7vw; 
+    }  
+
+    .logoBlock a{
+	color: #F7F5EF;
+	text-decoration: none;
+	font-size: 4vw;
+	font-weight: 300;
+    }
+
+    .tbBlock{
+	padding-left: 0;
+}
+
+    .tbBlock h1{
+	width: 62%;
+	font-size: 7vw;
+    margin-top: -6vw;
+    margin-left: 19%;
+}
+
+.tbBlock button{
+	width: 62%;
+	height: 7vw;
+	margin-top: 2vw;
+	font-size: 2.8vw;
+	border-radius: 3.5vw;
+	margin-left: 19%;
+}
+
+    .imageBlock img{
+	width: 90%;
+	margin-top: -11vw;
+	margin-left: 5%;
+    }
+
+    .awBlock img{
+	width: 12%;
+	margin-left: 44%;
+	margin-bottom: -1.6vw;
+	margin-top: 7vw;
+    }
+
+    .blockTeam{
+	grid-template-areas: 
+    "imgteamblock"
+	"tdbblock"
+	"abblock";
+	grid-template-columns: 100% 100% 100%;  
+}
+
+.tdbBlock{
+    padding-left: 0;
+}
+
+.tdbBlock h1{
+    width: 28%;
+	font-size: 11vw;
+	margin-left: 36%;
+    margin-top: -8vw; 
+}
+
+.tdbBlock h4{
+    width: 72%;
+	font-size: 3.6vw;
+    margin-top: 1.2vw; 
+    margin-left: 14%;
+}
+
+.tdbBlock button{
+	width: 72%;
+	height: 7vw;
+	margin-top: 2.4vw;
+	margin-left: 14%;
+	font-size: 2.8vw;
+	border-radius: 3.5vw;
+}
+
+.imgTeamBlock img{
+	width: 100%;
+	margin-top: -8vw;
+}
+
+.abBlock img{
+	width: 12%;
+	margin-left: 44%;
+	margin-top: 7vw;
+	margin-bottom: -1.6vw;
+}
+
+.blockProjects{
+	grid-template-areas: 
+	"imgprblock"
+	"prblock";
+	grid-template-columns: 100% 100%;  
+}
+
+.prBlock{
+    padding-left: 0;
+}
+
+.prBlock h1{
+    width: 76%;
+	font-size: 11vw;
+    margin-top: 20vw; 
+    margin-left: 12%;
+}
+
+.prBlock h4{
+    width: 76%;
+	font-size: 3.6vw;
+    margin-top: 1.6vw;
+    margin-left: 12%; 
+}
+
+.prBlock button{
+	width: 76%;
+	height: 7vw;
+	margin-top: 2.4vw;
+	margin-left: 12%;
+	margin-bottom: 8vw;
+	font-size: 2.8vw;
+	border-radius: 3.5vw;
+}
+
+.imgProjectBlock img{
+    width: 92%;
+    margin-left: 4%;
+    margin-top: 12vw;
+}
+
+.footer{
+	grid-template-columns: 100%;
+}
+
+.telegram{
+	height: 8vw;
+	margin-top: 2vw;
+}
+
+.tInfo{
+	height: 8vw;
+	margin-left: 0;
+}
+
+.tInfo img{
+	width: 6vw;
+    height: 6vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.tInfo a{ 
+    font-size: 3.6vw;
+    width: 100%;
+}
+
+.gmail{
+	margin-top: 2vw;
+	height: 8vw;
+}
+
+.gInfo{
+	height: 8vw;
+	margin-left: 0;
+	margin-top: 0;
+}
+
+.gInfo img{
+	width: 6vw;
+    height: 6vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.gInfo a{
+    font-size: 3.6vw;
+    width: 100%;
+}
+
+.call{
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	height: 8vw;
+}
+
+.cInfo{
+	height: 8vw;
+	margin-left: 0;
+}
+
+.cInfo img{
+	width: 6vw;
+    height: 6vw;
+    margin-top: 1vw;
+    margin-left: 2vw;
+}
+
+.cInfo a{
+    font-size: 3.6vw;
+    width: 100%;
+}
+
+}

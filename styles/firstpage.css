@@ -1,0 +1,276 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.blockTitle{
+	background: #363BAF;
+	display: grid;
+	grid-template-areas:
+	"logoblock logoblock"
+	"tbblock imageblock"
+	"awblock awblock";
+	grid-template-columns: 50% 50% 50% 50%;
+}
+
+.logoBlock{
+	grid-area: logoblock;
+	padding-top: 2vw;
+	padding-left: 5vw; 
+	padding-right: 5vw;
+}
+
+.logoBlock a{
+	color: #F7F5EF;
+	text-decoration: none;
+	font-size: 2.3vw;
+	font-weight: 300;
+}
+
+.tbBlock{
+	grid-area: tbblock;
+	padding-left: 5vw;
+	margin: 0;
+}
+
+.tbBlock h1{
+	width: 36vw;
+	color: #F7F5EF;
+	font-size: 4vw;
+	font-weight: 300;
+	margin: 0;
+    margin-top: 14vw;
+}
+
+.tbBlock button{
+	width: 35.7vw;
+	height: 3.4vw;
+	margin: 0;
+	margin-top: 2vw;
+	color: #F7F5EF;
+	font-size: 1.5vw;
+	font-weight: 300;
+	border: none;
+	background: #65D1A5;
+	border-radius: 2vw;
+	cursor: pointer;
+}
+
+.imageBlock{
+	grid-area: imageblock;
+
+}
+
+.imageBlock img{
+	width: 100%;
+	margin-top: -5vw;
+}
+
+.awBlock{
+	grid-area: awblock;
+}
+
+.awBlock img{
+	width: 8%;
+	margin-left: 46%;
+	margin-bottom: -1.1vw;
+}
+
+.blockTeam{
+    background: #F7F5EF;
+	display: grid;
+	grid-template-areas: 
+	"tdbblock imgteamblock"
+	"abblock abblock";
+	grid-template-columns: 50% 50%;  
+}
+
+.tdbBlock{
+    grid-area: tdbblock;
+    padding-left: 5vw;
+}
+
+.tdbBlock h1{
+    width: 36vw;
+	color: #363BAF;
+	font-size: 5.2vw;
+	font-weight: 300;
+	margin: 0;
+    margin-top: 12vw; 
+}
+
+.tdbBlock h4{
+    width: 36vw;
+	color: #363BAF;
+	font-size: 1.75vw;
+	font-weight: 300;
+	margin: 0;
+    margin-top: 1vw; 
+}
+
+.tdbBlock button{
+	width: 36vw;
+	height: 3.7vw;
+	margin: 0;
+	margin-top: 2vw;
+	color: #F7F5EF;
+	font-size: 1.5vw;
+	font-weight: 300;
+	border: none;
+	background: #363BAF;
+	border-radius: 2vw;
+	cursor: pointer;
+}
+
+.imgTeamBlock{
+    grid-area: imgteamblock;
+}
+
+.imgTeamBlock img{
+	width: 100%;
+}
+
+.abBlock{
+	grid-area: abblock;
+}
+
+.abBlock img{
+	width: 8%;
+	margin-left: 46%;
+	margin-bottom: -1.1vw;
+}
+
+.blockProjects{
+    background: #363BAF;
+	display: grid;
+	grid-template-areas: 
+	"prblock imgprblock";
+	grid-template-columns: 45% 55%;  
+}
+
+.prBlock{
+    grid-area: prblock;
+    padding-left: 5vw;
+}
+
+.prBlock h1{
+    width: 36vw;
+	color: #F7F5EF;
+	font-size: 5.2vw;
+	font-weight: 300;
+	margin: 0;
+    margin-top: 14vw; 
+}
+
+.prBlock h4{
+    width: 36vw;
+	color: #F7F5EF;
+	font-size: 1.75vw;
+	font-weight: 300;
+	margin: 0;
+    margin-top: 1vw; 
+}
+
+.prBlock button{
+	width: 36vw;
+	height: 3.7vw;
+	margin: 0;
+	margin-top: 2vw;
+	color: #363BAF;
+	font-size: 1.5vw;
+	font-weight: 300;
+	border: none;
+	background: #F7F5EF;
+	border-radius: 2vw;
+	cursor: pointer;
+}
+
+.imgProjectBlock{
+    grid-area: "imgprblock";
+    height: 50vw;
+}
+
+.imgProjectBlock img{
+    width: calc(100% - 2.5vw);
+    margin-top: 11vw;
+}
+
+.footer{
+	background: #F7F5EF;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.telegram{
+    height: 8vw;
+}
+
+.tInfo{
+	height: 8vw;
+	display: table;
+	margin-left: calc(50% - 8vw);
+}
+
+.tInfo img{
+	width: 3vw;
+    height: 3vw;
+    margin-top: 2.5vw;
+}
+
+.tInfo a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #363BAF;
+    width: 18vw;
+}
+
+.gInfo{
+	height: 8vw;
+	display: table;
+	margin-left: calc(50% - 8vw);
+}
+
+.gInfo img{
+	width: 3vw;
+    height: 3vw;
+    margin-top: 2.5vw;
+}
+
+.gInfo a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #363BAF;
+    width: 18vw;
+}
+
+.cInfo{
+	height: 8vw;
+	display: table;
+	margin-left: calc(50% - 8vw);
+}
+
+.cInfo img{
+	width: 3vw;
+    height: 3vw;
+    margin-top: 2.5vw;
+}
+
+.cInfo a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #363BAF;
+    width: 13vw;
+}

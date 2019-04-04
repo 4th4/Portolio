@@ -1,0 +1,164 @@
+
+body{
+	background: #363BAF;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.logoBlock{
+	position: relative;
+	padding-top: 2vw;
+}
+
+.logoBlock a{
+	color: #F7F5EF;
+	text-decoration: none;
+	font-size: 2.3vw;
+	font-weight: 300;
+	margin-left: 5vw; 
+}
+
+.logoBlock h1{
+	color: #F7F5EF;
+	font-size: 5.4vw;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 6vw;
+	height: 10vw;
+}
+
+.project{
+	position: relative;
+	background: #F7F5EF;
+	border-radius: 1vw;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	margin: 5vw;
+	margin-bottom: 2vw;
+	margin-top: 2vw; 
+	box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+
+.imgBlock img{
+   margin: 2vw;
+   height: 28vw;
+   border-radius: 0;
+}
+
+.infoBlock{
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.infoBlock h2{
+	color: #363BAF;
+	font-size: 4.2vw;
+	font-weight: 300;
+	height: 6vw;
+	margin: 0;
+	margin-top: 2vw;
+}
+
+.infoBlock h4{
+	color: #363BAF;
+	font-size: 1.8vw;
+	font-weight: 300;
+	height: 16vw;
+	margin: 0;
+	margin-top: 1vw;
+}
+
+.infoBlock button{
+	background: #D5FF62;
+	width: 14vw;
+	height: 4vw;
+	margin: 0;
+	margin-top: 1vw;
+	color: #F7F5EF;
+	font-size: 1.4vw;
+	font-weight: 300;
+	border: none;
+	background: #363BAF;
+	border-radius: 0.5vw;
+	cursor: pointer;
+}
+
+.footer{
+	background: #F7F5EF;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.telegram{
+    height: 8vw;
+}
+
+.tInfo{
+	height: 8vw;
+	display: table;
+	margin-left: calc(50% - 8vw);
+}
+
+.tInfo img{
+	width: 3vw;
+    height: 3vw;
+    margin-top: 2.5vw;
+}
+
+.tInfo a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #363BAF;
+    width: 18vw;
+}
+
+.gInfo{
+	height: 8vw;
+	display: table;
+	margin-left: calc(50% - 8vw);
+}
+
+.gInfo img{
+	width: 3vw;
+    height: 3vw;
+    margin-top: 2.5vw;
+}
+
+.gInfo a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #363BAF;
+    width: 18vw;
+}
+
+.cInfo{
+	height: 8vw;
+	display: table;
+	margin-left: calc(50% - 8vw);
+}
+
+.cInfo img{
+	width: 3vw;
+    height: 3vw;
+    margin-top: 2.5vw;
+}
+
+.cInfo a{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.4vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: #363BAF;
+    width: 13vw;
+}
